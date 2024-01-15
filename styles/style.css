@@ -2,5 +2,203 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  border: solid 3px red;
 }
-???
+
+.intro {
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 668px;
+}
+
+.rec-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 0px;
+  margin-right: 10px;
+}
+.rec-text {
+  display: block;
+  width: 33px;
+  height: 26px;
+  flex-shrink: 0;
+  color: #ff0070;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.rec-icon-up {
+  display: flex;
+  width: 25.038px;
+  height: 24.999px;
+  border-top: 1px solid #ff0070;
+  border-right: 1px solid #ff0070;
+}
+
+.rec-image {
+  display: flex;
+  width: 9px;
+  height: 9px;
+  margin-top: 7px;
+  margin-left: 8px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #ff0070;
+  background-position: center;
+  fill: #ff0070;
+  filter: drop-shadow(0px 0px 4px #ff0070);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  color: #ff0070;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+
+.no-bullit {
+  list-style-type: none;
+}
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__theme-menu-item {
+  display: inline-flex;
+  height: 26px;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header__theme-menu-button {
+  color: #ff0070;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.no-focus {
+  display: flex;
+  width: 355px;
+  height: 192px;
+  margin-bottom: 55px;
+  margin-left: 10px;
+  color: #db00ff;
+  text-shadow: 4px 4px 0px #ff0070;
+  font-family: IBM Plex Mono;
+  font-size: 116px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+}
+
+.h1-text {
+  display: flex;
+  width: 355px;
+
+  margin-bottom: 66px;
+  margin-left: 10px;
+  color: #000028;
+  background-color: #ff0070;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+}
+.rec-icon-down {
+  display: flex;
+  width: 25.038px;
+  height: 24.999px;
+  margin-left: 10px;
+  margin-top: 31px;
+  border-bottom: 1px solid #ff0070;
+  border-left: 1px solid #ff0070;
+}
+
+.main {
+  background-color: #000028;
+}
+.h2-text {
+  display: flex;
+  width: 355px;
+  margin-left: 10px;
+  color: #ff0070;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+}
+.h3-text {
+  width: 351.027px;
+  height: 398px;
+  flex-shrink: 0;
+  margin-left: 10px;
+  color: #f1b2ce;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 130% */
+}
+
+.no-bolt {
+  font-weight: 400;
+}
+
+.pics {
+  display: flex;
+  
+  width: 355px;
+  height: 142px;
+
+}
+.pic-sunset {
+  display: block;
+  width: 355px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-image: url(../images/sunset.png);
+  background-size: cover;
+  object-fit: cover;
+  max-width: 355px;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+
+.pic-ice-cream {
+  display: block;
+  width: 355px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-image: url(../images/ice-cream.png);
+  background-size: cover;
+  object-fit: cover;
+  max-width: 355px;
+  max-height: 100%;
+  flex-shrink: 0;
+}
