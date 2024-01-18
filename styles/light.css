@@ -16,6 +16,7 @@
   --background-image: url(../images/cover-image-light.png);
   --hover-color: rgba(50, 49, 45, 0.4);
   --border-line-color: #353430;
+  --hide: transparent;
 }
 
 :root.theme-light {
@@ -26,14 +27,7 @@
   --background-image: url(../images/cover-image-light.png);
   --hover-color: rgba(50, 49, 45, 0.4);
   --border-line-color: #353430;
-}
-
-.rec-text {
-  display: none;
-}
-
-.rec-image {
-  display: none;
+  --hide: transparent;
 }
 
 @media (prefers-color-scheme: light) {
@@ -45,6 +39,7 @@
     --background-image: url(../images/cover-image-light.png);
     --hover-color: rgba(50, 49, 45, 0.4);
     --border-line-color: #353430;
+    --hide: transparent;
 
     /* Дублируем переменные светлой темы */
   }

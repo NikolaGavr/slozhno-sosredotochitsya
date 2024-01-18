@@ -10,4 +10,5 @@
   --background-image: url(../images/cover-image-dark.png);
   --hover-color: rgba(255, 0, 112, 0.4);
   --border-line-color: #ff0070;
+  --hide: #ff0070;
 }
