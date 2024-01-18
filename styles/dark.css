@@ -14,7 +14,7 @@
   --accent-h3-color: #f1b2ce;
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --hover-color:rgba(255, 0, 112, 0.40);
+  --hover-color: rgba(255, 0, 112, 0.4);
   --border-line-color: #ff0070;
 }
 
@@ -24,6 +24,6 @@
   --accent-h3-color: #f1b2ce;
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --hover-color:rgba(255, 0, 112, 0.40);
+  --hover-color: rgba(255, 0, 112, 0.4);
   --border-line-color: #ff0070;
 }
