@@ -15,6 +15,8 @@
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --hover-color:rgba(50, 49, 45, 0.40);
+  --border-line-color: #353430;
+
 }
 
 :root.theme-light {
@@ -24,7 +26,16 @@
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --hover-color:rgba(50, 49, 45, 0.40);
+  --border-line-color: #353430;
 }
+
+.rec-text {
+  display: none;
+  }
+
+  .rec-image {
+    display: none;
+  }
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -33,6 +44,22 @@
     --accent-h3-color: #353430;
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
+    --hover-color:rgba(50, 49, 45, 0.40);
+    --border-line-color: #353430;
+
     /* Дублируем переменные светлой темы */
   }
 }
+@media (width > 1023.99px) {
+
+  .no-focus {
+    text-shadow: 4px 4px 0px #ff0070;
+  }
+
+  .footer {
+    text-shadow: 2px 2px 0px #ff0070;
+    
+  }
+
+}
+

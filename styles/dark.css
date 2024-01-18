@@ -15,6 +15,7 @@
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
   --hover-color:rgba(255, 0, 112, 0.40);
+  --border-line-color: #ff0070;
 }
 
 :root.theme_dark {
@@ -24,5 +25,5 @@
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
   --hover-color:rgba(255, 0, 112, 0.40);
-
+  --border-line-color: #ff0070;
 }
