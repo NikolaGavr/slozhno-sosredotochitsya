@@ -45,7 +45,7 @@
   }
 }
 @media (width > 1023.99px) {
-  .no-focus {
+  .header-title {
     text-shadow: 4px 4px 0px #ff0070;
   }
 
