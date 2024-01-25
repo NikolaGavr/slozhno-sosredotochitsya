@@ -475,36 +475,6 @@
     min-width: 1024px;
   }
 
-  .intro {
-    width: 1024px;
-    height: 768px;
-    background-image: var(--background-image);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-bottom: 60px;
-  }
-
-  .nav-direction {
-    display: flex;
-    flex-direction: row-reverse;
-    align-self: center;
-  }
-  .rec-block {
-    margin-bottom: 5px;
-  }
-
-  .rec-icon-up {
-    margin-right: 0px;
-  }
-  .rec-icon-down {
-    margin-left: 00px;
-    align-self: flex-start;
-  }
-
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
