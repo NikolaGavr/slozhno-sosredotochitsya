@@ -7,7 +7,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  
 }
 
 .cover {
@@ -30,7 +29,6 @@
   font-weight: 400;
   line-height: 25px; /* 138.889% */
   position: relative;
-  
 }
 
 .header__theme-menu {
@@ -127,7 +125,7 @@
 
 .header-title {
   display: flex;
-  width: 355px;
+
   margin-left: 8px;
   margin-top: 70px;
   margin-bottom: 55px;
@@ -138,7 +136,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%;
-  
 }
 
 .undertitle {
@@ -197,7 +194,6 @@
 .how-cards {
   display: flex;
   flex-direction: column;
-  
 }
 
 .how {
@@ -300,8 +296,6 @@
   display: flex;
   width: 375px;
   margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .footer-title {
@@ -313,7 +307,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%;
-  
 }
 
 .footer-title::before {
@@ -321,7 +314,7 @@
   display: flex;
   width: 25px;
   height: 25px;
-  margin-left: 330px;
+  margin-left: 340px;
   margin-bottom: 251px;
   border-top: 1px solid var(--border-line-color);
   border-right: 1px solid var(--border-line-color);
@@ -334,6 +327,7 @@
   height: 25px;
   margin-top: 250px;
   margin-bottom: 10px;
+  margin-left: 10px;
   border-left: 1px solid var(--border-line-color);
   border-bottom: 1px solid var(--border-line-color);
 }
@@ -345,7 +339,6 @@
 
   .cover {
     padding-bottom: 1px;
-    
   }
 
   .header__theme-menu::after {
@@ -381,13 +374,11 @@
   }
 
   .undertitle {
-    
     width: 364px;
     justify-self: right;
     margin-left: auto;
     margin-right: 20px;
     margin-bottom: 183px;
-    
   }
 
   .header-title::after {
@@ -442,10 +433,6 @@
     justify-content: end;
   }
 
-  .h2-text {
-    
-  }
-
   .h3-text {
     width: 236px;
   }
@@ -461,7 +448,7 @@
   .bl25 {
     grid-column: 1/4;
     grid-row: 1/2;
-    margin-bottom: 0px;   
+    margin-bottom: 0px;
   }
 
   .pic-sunset {
@@ -516,7 +503,6 @@
     display: flex;
     width: 768px;
     margin-top: 80px;
-
   }
 
   .footer-title {
@@ -533,7 +519,7 @@
     height: 25px;
     justify-self: left;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 418px;
     border-top: 1px solid var(--border-line-color);
     border-right: 1px solid var(--border-line-color);
@@ -545,7 +531,7 @@
     width: 25px;
     height: 25px;
     margin-top: 417px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 20px;
     border-left: 1px solid var(--border-line-color);
     border-bottom: 1px solid var(--border-line-color);
@@ -563,15 +549,15 @@
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
-    
-    margin-right: 360px;
+
+    margin-right: 355px;
   }
 
   .header-title {
     display: flex;
     width: 759px;
     height: 130px;
-    margin-left: -10px;
+
     margin-top: 274.5px;
     margin-bottom: 104px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -579,7 +565,7 @@
 
   .undertitle {
     width: 491px;
-    
+
     margin-bottom: 99px;
     margin-right: 20px;
   }
@@ -589,7 +575,6 @@
     margin-top: 360px;
     position: absolute;
   }
-
 
   .h3-text {
     width: 315px;
@@ -689,7 +674,6 @@
 
   .footer-title {
     width: 1024px;
-    
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -698,8 +682,6 @@
     display: flex;
     width: 25px;
     height: 25px;
-    justify-self: left;
-    margin-left: auto;
     margin-bottom: 274px;
     border-top: 1px solid var(--border-line-color);
     border-right: 1px solid var(--border-line-color);
