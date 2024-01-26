@@ -127,7 +127,7 @@
   display: flex;
 
   margin-left: 8px;
-  margin-top: 70px;
+  margin-top: 68px;
   margin-bottom: 55px;
   color: var(--accent-big-color);
   text-shadow: 4px 4px 0px var(--accent-color);
@@ -218,7 +218,7 @@
 }
 
 .gap {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .h3-text {
@@ -299,11 +299,12 @@ margin-bottom: 20px;
 .bye {
   display: flex;
   width: 375px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .footer-title {
   display: block;
+  margin-left: 10px;
   color: var(--accent-big-color);
   text-shadow: 2px 2px 0px var(--accent-color);
   font-family: IBM Plex Mono, Arial, sans-serif;
@@ -411,7 +412,7 @@ margin-bottom: 20px;
   .what-cards {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .what {
@@ -549,11 +550,11 @@ margin-bottom: 20px;
     min-width: 1024px;
   }
 
-.cover{
-  padding-bottom: 1px;
+  .cover {
+    padding-bottom: 1px;
     margin-bottom: 30px;
-  
-}
+  }
+
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
@@ -568,7 +569,6 @@ margin-bottom: 20px;
     display: flex;
     width: 759px;
     height: 130px;
-
     margin-top: 274.5px;
     margin-bottom: 110px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
