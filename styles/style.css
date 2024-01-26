@@ -632,7 +632,7 @@
     grid-template-columns: 315px 315px 315px;
     grid-template-rows: repeat(auto-fit, 1fr);
     gap: 20px;
-    margin-top: 65px;
+    margin-top: 70px;
   }
 
   .bl25 {
