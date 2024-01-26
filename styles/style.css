@@ -319,7 +319,7 @@
   display: flex;
   width: 25px;
   height: 25px;
-  margin-left: 340px;
+  margin-left: 330px;
   margin-bottom: 251px;
   border-top: 1px solid var(--border-line-color);
   border-right: 1px solid var(--border-line-color);
@@ -332,7 +332,7 @@
   height: 25px;
   margin-top: 250px;
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 00px;
   border-left: 1px solid var(--border-line-color);
   border-bottom: 1px solid var(--border-line-color);
 }
@@ -353,7 +353,7 @@
 
   .header__theme-menu-list {
     margin-right: -25px;
-    margin-top: 193.5px;
+    margin-top: 191px;
     gap: 10px;
   }
 
@@ -373,7 +373,7 @@
     height: 130px;
     margin-left: 0px;
     margin-top: 174.5px;
-    margin-bottom: 132px;
+    margin-bottom: 130px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     position: relative;
   }
@@ -412,7 +412,7 @@
   .what-cards {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .what {
@@ -538,7 +538,7 @@
     width: 25px;
     height: 25px;
     margin-top: 417px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 20px;
     border-left: 1px solid var(--border-line-color);
     border-bottom: 1px solid var(--border-line-color);
@@ -583,7 +583,7 @@
 
   .header-title::after {
     margin-left: 20px;
-    margin-top: 395px;
+    margin-top: 400px;
     position: absolute;
   }
 
@@ -699,7 +699,7 @@
     display: flex;
     width: 25px;
     height: 25px;
-    margin-bottom: 270px;
+    margin-bottom: 272px;
     border-top: 1px solid var(--border-line-color);
     border-right: 1px solid var(--border-line-color);
     justify-content: flex-end;
@@ -710,7 +710,7 @@
     display: block;
     width: 25px;
     height: 25px;
-    margin-top: 270px;
+    margin-top: 272px;
     margin-bottom: 20px;
     border-left: 1px solid var(--border-line-color);
     border-bottom: 1px solid var(--border-line-color);
