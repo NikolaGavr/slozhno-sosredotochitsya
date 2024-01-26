@@ -19,16 +19,6 @@
   --hide: transparent;
 }
 
-:root.theme-light {
-  --accent-color: #ff8dcb;
-  --accent-big-color: #ffc2e6;
-  --accent-h3-color: #353430;
-  --background-color: #fff1f7;
-  --background-image: url(../images/cover-image-light.png);
-  --hover-color: rgba(50, 49, 45, 0.4);
-  --border-line-color: #353430;
-  --hide: transparent;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
