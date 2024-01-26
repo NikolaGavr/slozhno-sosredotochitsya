@@ -7,7 +7,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  border: 1px solid red;
+  
 }
 
 .cover {
@@ -164,7 +164,7 @@
 .why-cards {
   display: flex;
   flex-direction: column;
-  margin-top: 41px;
+  margin-top: 36px;
 }
 
 .why {
@@ -191,19 +191,19 @@
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .how-cards {
   display: flex;
   flex-direction: column;
+  
 }
 
 .how {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(auto-fit, 1fr);
-  gap: -10px;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -258,7 +258,7 @@
 
 .no-bolt {
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .pics {
@@ -557,44 +557,14 @@
     min-width: 1024px;
   }
 
-  .intro {
-    width: 1024px;
-    height: 768px;
-    background-image: var(--background-image);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-bottom: 60px;
-  }
-
-  .nav-direction {
-    display: flex;
-    flex-direction: row-reverse;
-    align-self: center;
-  }
-  .rec-block {
-    margin-bottom: 5px;
-  }
-
-  .rec-icon-up {
-    margin-right: 0px;
-  }
-  .rec-icon-down {
-    margin-left: 00px;
-    align-self: flex-start;
-  }
-
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
-    margin-left: 380px;
-    margin-right: 310px;
+    
+    margin-right: 360px;
   }
 
   .header-title {
