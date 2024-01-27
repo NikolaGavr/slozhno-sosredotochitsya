@@ -556,14 +556,7 @@
 }
 
 @media (width >= 1024px) {
-  .header-title {
-    
-  }
-
-  .footer-title {
-    text-shadow: 2px 2px 0px #ff0070;
-  }
-
+  
   .page {
     min-width: 1024px;
   }
