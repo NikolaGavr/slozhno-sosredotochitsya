@@ -34,12 +34,4 @@
     /* Дублируем переменные светлой темы */
   }
 }
-@media (width > 1023.99px) {
-  .header-title {
-    text-shadow: 4px 4px 0px #ff0070;
-  }
 
-  .footer {
-    text-shadow: 2px 2px 0px #ff0070;
-  }
-}
