@@ -383,7 +383,6 @@
 
   .undertitle {
     width: 364px;
-
     margin-left: auto;
     margin-top: 11px;
     margin-right: 20px;
@@ -558,10 +557,10 @@
 
 @media (width >= 1024px) {
   .header-title {
-    text-shadow: 4px 4px 0px #ff0070;
+    
   }
 
-  .footer {
+  .footer-title {
     text-shadow: 2px 2px 0px #ff0070;
   }
 
@@ -579,7 +578,6 @@
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
-
     margin-right: 355px;
   }
 
@@ -588,6 +586,7 @@
     margin-top: 274.5px;
     margin-bottom: 110px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    text-shadow: 4px 4px 0px #ff0070;
   }
 
   .undertitle {
@@ -710,6 +709,7 @@
   .footer-title {
     width: 1024px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    text-shadow: 2px 2px 0px #ff0070;
   }
 
   .footer-title::before {
