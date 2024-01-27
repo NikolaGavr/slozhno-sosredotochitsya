@@ -19,7 +19,6 @@
   --hide: transparent;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -34,4 +33,3 @@
     /* Дублируем переменные светлой темы */
   }
 }
-
